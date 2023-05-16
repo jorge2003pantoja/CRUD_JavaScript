@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Mitr:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8ac98cd307.js" crossorigin="anonymous"></script>
+
+    <title>CRUD JavaScript</title>
+</head>
+<body>
+    <div class="titulo">
+        <h1>CRUD con JavaScript</h1>
+    </div>
+
+    <div class="contenedor">
+        <div class="form">
+            <form action="#" id="formulario">
+                <label>Titulo:</label>
+                <input type="text" id="inputTitulo" placeholder="Ingrese el titulo"><br>
+                <label>Descripción:</label>
+                <input type="text" id="inputDescripcion" placeholder="Ingrese la descripción"><br>
+                <label>Estatus:</label><br>
+                <select id="inputEstatus">
+                    <option>Pendiente</option>
+                    <option>Terminado</option>
+                </select>
+                <div class="botones">
+                    <input type="submit" id="btnAgregar" value="Agregar">
+                    <input type="submit" id="btnActualizar" value="Actualizar">
+                </div>
+            </form>
+        </div>
+        <br>
+        <hr>
+        
+            <div class="tabla">
+                <table>
+                    <thead>
+                        <tr>
+                          <th>Titulo</th>
+                          <th>Descripción</th>
+                          <th>Estatus</th>
+                        </tr>
+                      </thead>
+                      <tbody id="lista">
+                        
+                      </tbody>
+                </table>
+            </div>
+       
+    </div>
+    
+    <script src="crud.js"></script>
+</body>
+</html>

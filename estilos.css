@@ -1,0 +1,54 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Mitr', sans-serif;
+}
+body{
+    background-color: #d4dfe3;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    color: #000000;
+}
+.titulo, .form, .tabla{
+    display: flex;
+    justify-content: center;
+}
+input, select{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+}
+.botones{
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+}
+#btnAgregar, #btnActualizar{
+    width: 50%;
+    border: none;
+    border-radius: 10px;
+    justify-content: center;
+    color: #ffffff;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+#btnAgregar{
+    background-color: #ffae00;
+}
+#btnAgregar:hover{
+    background-color: #f0a400;
+    transform: translateY(2px);   
+}
+#btnActualizar{
+    background-color: #0077ff;
+    display: none;
+}
+#btnActualizar:hover{
+    background-color: #006ce8;
+    transform: translateY(2px);   
+}
