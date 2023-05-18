@@ -54,3 +54,6 @@ input, select{
 .material-icons:hover{
     cursor: pointer;
 }
+#labelId, #inputId{
+    display: none;
+}

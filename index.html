@@ -25,6 +25,9 @@
     <div class="contenedor">
         <div class="form">
             <form action="#" id="formulario">
+                <label id="labelId">Id:</label>
+                <input type="text" id="inputId" placeholder="Id"><br>
+
                 <label>Titulo:</label>
                 <input type="text" id="inputTitulo" placeholder="Ingrese el titulo"><br>
                 <label>Descripción:</label>
@@ -36,7 +39,7 @@
                 </select>
                 <div class="botones">
                     <input type="submit" id="btnAgregar" value="Agregar">
-                    <input type="submit" id="btnActualizar" value="Actualizar">
+                    <input id="btnActualizar" onclick="editarTarea()" value="Actualizar">
                 </div>
             </form>
         </div>
